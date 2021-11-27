@@ -46,7 +46,7 @@ CUDA_VISIBLE_DEVICES=0,1 nohup python -m torch.distributed.launch --nproc_per_no
 ```
 
 ## 5. Evaluating
-You also can evaluate our model without training. Please download the released model.
+You also can evaluate our model without training. Please download the released model. [model](https://drive.google.com/u/0/uc?id=1B4FgMQjJAg5i-6R3l1XBt55xhlDjdaK1&export=download)
 ```
 python evaluate.py --bert_path {your_bert_path} --optimal_model_path {released_model_path}
 ```
